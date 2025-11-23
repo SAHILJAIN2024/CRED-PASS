@@ -20,7 +20,7 @@ type GraphResponse = {
 };
 
 // ---------- GraphQL ----------
-const GRAPH_URL = "https://api.studio.thegraph.com/query/117940/cred-pass/version/latest";
+const GRAPH_URL = "https://api.studio.thegraph.com/query/117940/credpass/version/latest";
 
 const QUERY = gql`
 {
