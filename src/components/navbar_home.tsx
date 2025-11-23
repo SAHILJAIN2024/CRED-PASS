@@ -25,25 +25,11 @@ export default function Navbar() {
           
         </li>
         <li>
-          <button
-            className="hover:text-[#00E0FF] cursor-pointer text-2xl"
-            onClick={() => scrollToSection("about")}
-          >
-            About
-          </button>
+          <button className="hover:text-[#702eff] cursor-pointer text-2xl" onClick={()=> router.push("/profile")}>
+           On-Chain Voting
+        </button>
         </li>
-        <li>
-          <button
-            className="hover:text-[#39FF14] cursor-pointer text-2xl"
-            onClick={() => scrollToSection("features")}
-          >
-            Features
-          </button>
-        </li>
-        <li>
-          {/* Signup button aligns as menu item */}
-          <Signup />
-        </li>
+       
       </ul>
     </nav>
   );

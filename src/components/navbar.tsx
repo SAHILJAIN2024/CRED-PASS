@@ -20,9 +20,7 @@ const { address, connectWallet, disconnectWallet } = useWallet();
            Dashboard
         </button>
         </li>
-        <li>
-        
-        </li>
+    
         <li>
           <Signup/>
         </li>

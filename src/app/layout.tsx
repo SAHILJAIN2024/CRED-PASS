@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Code Block",
-  description: "Github on Blockchain",
+  title: "Cred-Pass: Decentralized Student Passport",
+  description: "A next-gen credential ecosystem built for trust.",
 };
 
 export default function RootLayout({
